@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-03 10:09+0000\n"
-"PO-Revision-Date: 2022-09-03 14:44+0000\n"
+"PO-Revision-Date: 2022-09-04 15:01+0000\n"
 "Last-Translator: grass <467195537@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://weblate.grass.work:30443/"
 "projects/emacs/doc-emacs/zh_Hans/>\n"
@@ -208,7 +208,7 @@ msgstr ""
 
 #. type: node
 #: /source/emacs.texi:144 /source/emacs.texi:1522
-#, fuzzy, no-wrap
+#, no-wrap
 msgid "Intro"
 msgstr "介绍"
 
