@@ -7,52 +7,55 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 2022-09-03 10:09+0000\n"
-"PO-Revision-Date: 2022-09-03 10:09+0000\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2022-09-03 14:44+0000\n"
+"Last-Translator: grass <467195537@qq.com>\n"
+"Language-Team: Chinese (Simplified) <https://weblate.grass.work:30443/"
+"projects/emacs/doc-emacs/zh_Hans/>\n"
 "Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.13.1\n"
 
 #. type: titlefont{#1}
 #: /source/emacs.texi:4 /source/emacs.texi:72 /source/emacs.texi:77
 #, no-wrap
 msgid "GNU Emacs Manual"
-msgstr ""
+msgstr "GNU Emacs 手册"
 
 #. type: include
 #: /source/emacs.texi:5 /source/emacs-xtra.texi:5
 #, no-wrap
 msgid "docstyle.texi"
-msgstr ""
+msgstr "docstyle.texi"
 
 #. type: include
 #: /source/emacs.texi:6
 #, no-wrap
 msgid "emacsver.texi"
-msgstr ""
+msgstr "emacsver.texi"
 
 #. type: ifset
 #: /source/emacs.texi:17
 msgid "This is the @value{EDITION} edition of the @cite{GNU Emacs Manual},@*"
-msgstr ""
+msgstr "这是 @cite{GNU Emacs手册} 的 @value{EDITION} 版本，@*"
 
 #. type: ifclear
 #: /source/emacs.texi:20
 msgid "This is the @cite{GNU Emacs Manual},"
-msgstr ""
+msgstr "这是 @cite{GNU Emacs 手册}，"
 
 #. type: copying
 #: /source/emacs.texi:22
 msgid "updated for Emacs version @value{EMACSVER}."
-msgstr ""
+msgstr "已针对 Emacs 版本 @value{EMACSVER} 更新。"
 
 #. type: copying
 #: /source/emacs.texi:25
 msgid ""
 "Copyright @copyright{} 1985--1987, 1993--2022 Free Software Foundation, Inc."
-msgstr ""
+msgstr "版权所有 @copyright{} 1985--1987, 1993--2022 Free Software Foundation, Inc."
 
 #. type: quotation
 #: /source/emacs.texi:35
@@ -65,6 +68,13 @@ msgid ""
 "with the Back-Cover Texts as in (a) below.  A copy of the license is "
 "included in the section entitled ``GNU Free Documentation License.''"
 msgstr ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License, Version 1.3 or any later "
+"version published by the Free Software Foundation; with the Invariant "
+"Sections being ``The GNU Manifesto,'' ``Distribution'' and ``GNU GENERAL "
+"PUBLIC LICENSE,'' with the Front-Cover Texts being ``A GNU Manual,'' and "
+"with the Back-Cover Texts as in (a) below.  A copy of the license is "
+"included in the section entitled ``GNU Free Documentation License.''"
 
 #. type: quotation
 #: /source/emacs.texi:39
@@ -73,56 +83,59 @@ msgid ""
 "this GNU manual.  Buying copies from the FSF supports it in developing GNU "
 "and promoting software freedom.''"
 msgstr ""
+"(a) The FSF's Back-Cover Text is: ``You have the freedom to copy and modify "
+"this GNU manual.  Buying copies from the FSF supports it in developing GNU "
+"and promoting software freedom.''"
 
 #. type: dircategory
 #: /source/emacs.texi:42 /source/emacs-xtra.texi:34
 #, no-wrap
 msgid "Emacs"
-msgstr ""
+msgstr "Emacs"
 
 #. type: menuentry
 #: /source/emacs.texi:45
 msgid "Emacs: (emacs)"
-msgstr ""
+msgstr "Emacs: (emacs)"
 
 #. type: menuentry
 #: /source/emacs.texi:45
 msgid "The extensible self-documenting text editor."
-msgstr ""
+msgstr "可扩展的自文档文本编辑器。"
 
 #. type: ifset
 #: /source/emacs.texi:54
 msgid "@smallbook"
-msgstr ""
+msgstr "@smallbook"
 
 #. type: tex
 #: /source/emacs.texi:64
 #, no-wrap
 msgid "\\global\\hbadness=6666 % don't worry about not-too-underfull boxes\n"
-msgstr ""
+msgstr "\\global\\hbadness=6666 % 不要担心盒子不够满\n"
 
 #. type: iftex
 #: /source/emacs.texi:71
 msgid "@kbdinputstyle code"
-msgstr ""
+msgstr "@kbdinputstyle code"
 
 #. type: center
 #: /source/emacs.texi:80
 #, no-wrap
 msgid "@value{EDITION} Edition, Updated for Emacs Version @value{EMACSVER}."
-msgstr ""
+msgstr "@value{EDITION} 版，已针对Emacs版本 @value{EMACSVER} 更新。"
 
 #. type: center
 #: /source/emacs.texi:83
 #, no-wrap
 msgid "Updated for Emacs Version @value{EMACSVER}"
-msgstr ""
+msgstr "已针对 Emacs 版本 @value{EMACSVER} 更新"
 
 #. type: center
 #: /source/emacs.texi:86
 #, no-wrap
 msgid "Richard Stallman et al."
-msgstr ""
+msgstr "理查德斯托曼等人。"
 
 #. type: titlepage
 #: /source/emacs.texi:96
@@ -130,17 +143,19 @@ msgid ""
 "Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor "
 "@* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-8-5"
 msgstr ""
+"Published by the Free Software Foundation @* 51 Franklin Street, Fifth Floor "
+"@* Boston, MA 02110-1301 USA @* ISBN 978-0-9831592-8-5"
 
 #. type: titlepage
 #: /source/emacs.texi:99
 msgid "Cover art by Etienne Suvasa; cover design by FSF staff."
-msgstr ""
+msgstr "Etienne Suvasa 的封面艺术； FSF工作人员的封面设计。"
 
 #. type: node
 #: /source/emacs.texi:109 /source/gnu.texi:17 /source/emacs-xtra.texi:49
 #, no-wrap
 msgid "Top"
-msgstr ""
+msgstr "Top"
 
 #. type: top
 #: /source/emacs.texi:110
@@ -184,7 +199,7 @@ msgstr ""
 #: /source/emacs.texi:144 /source/emacs.texi:1352
 #, no-wrap
 msgid "Distrib"
-msgstr ""
+msgstr "发行"
 
 #. type: menuentry
 #: /source/emacs.texi:144
@@ -193,9 +208,9 @@ msgstr ""
 
 #. type: node
 #: /source/emacs.texi:144 /source/emacs.texi:1522
-#, no-wrap
+#, fuzzy, no-wrap
 msgid "Intro"
-msgstr ""
+msgstr "介绍"
 
 #. type: menuentry
 #: /source/emacs.texi:144
@@ -205,84 +220,84 @@ msgstr ""
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Important General Concepts"
-msgstr ""
+msgstr "重要的一般概念"
 
 #. type: node
 #: /source/emacs.texi:154 /source/screen.texi:5
 #, no-wrap
 msgid "Screen"
-msgstr ""
+msgstr "屏幕"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "How to interpret what you see on the screen."
-msgstr ""
+msgstr "如何解读你在屏幕上看到的东西。"
 
 #. type: node
 #: /source/emacs.texi:154 /source/commands.texi:18
 #, no-wrap
 msgid "User Input"
-msgstr ""
+msgstr "用户输入"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Kinds of input events (characters, buttons, function keys)."
-msgstr ""
+msgstr "各种输入事件(字符、按钮、功能键)。"
 
 #. type: section
 #: /source/emacs.texi:154 /source/commands.texi:85 /source/commands.texi:86
 #, no-wrap
 msgid "Keys"
-msgstr ""
+msgstr "键"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Key sequences: what you type to request one editing action."
-msgstr ""
+msgstr "键序列：您键入的内容以请求一项编辑操作。"
 
 #. type: node
 #: /source/emacs.texi:154 /source/commands.texi:138
 #, no-wrap
 msgid "Commands"
-msgstr ""
+msgstr "命令"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Named functions run by key sequences to do editing."
-msgstr ""
+msgstr "命名函数由键序列运行以进行编辑。"
 
 #. type: section
 #: /source/emacs.texi:154 /source/entering.texi:15 /source/entering.texi:16
 #, no-wrap
 msgid "Entering Emacs"
-msgstr ""
+msgstr "进入 Emacs"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Starting Emacs from the shell."
-msgstr ""
+msgstr "从 Shell 启动 Emacs。"
 
 #. type: node
 #: /source/emacs.texi:154 /source/entering.texi:92
 #, no-wrap
 msgid "Exiting"
-msgstr ""
+msgstr "退出"
 
 #. type: menuentry
 #: /source/emacs.texi:154
 msgid "Stopping or killing Emacs."
-msgstr ""
+msgstr "停止或中止 Emacs。"
 
 #. type: menuentry
 #: /source/emacs.texi:160
 msgid "Fundamental Editing Commands"
-msgstr ""
+msgstr "基本编辑命令"
 
 #. type: node
 #: /source/emacs.texi:160 /source/basic.texi:6
 #, no-wrap
 msgid "Basic"
-msgstr ""
+msgstr "基础"
 
 #. type: menuentry
 #: /source/emacs.texi:160
@@ -367,7 +382,7 @@ msgstr ""
 #: /source/emacs.texi:169 /source/display.texi:7
 #, no-wrap
 msgid "Display"
-msgstr ""
+msgstr "显示"
 
 #. type: menuentry
 #: /source/emacs.texi:169
@@ -378,7 +393,7 @@ msgstr ""
 #: /source/emacs.texi:169 /source/search.texi:6
 #, no-wrap
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #. type: menuentry
 #: /source/emacs.texi:169
@@ -389,7 +404,7 @@ msgstr ""
 #: /source/emacs.texi:169 /source/fixit.texi:5
 #, no-wrap
 msgid "Fixit"
-msgstr ""
+msgstr "修复"
 
 #. type: menuentry
 #: /source/emacs.texi:169
@@ -417,7 +432,7 @@ msgstr ""
 #: /source/emacs.texi:176 /source/basic.texi:502 /source/files.texi:5
 #, no-wrap
 msgid "Files"
-msgstr ""
+msgstr "文件"
 
 #. type: menuentry
 #: /source/emacs.texi:176
@@ -428,7 +443,7 @@ msgstr ""
 #: /source/emacs.texi:176 /source/buffers.texi:5
 #, no-wrap
 msgid "Buffers"
-msgstr ""
+msgstr "缓冲区"
 
 #. type: menuentry
 #: /source/emacs.texi:176
@@ -439,7 +454,7 @@ msgstr ""
 #: /source/emacs.texi:176 /source/windows.texi:5
 #, no-wrap
 msgid "Windows"
-msgstr ""
+msgstr "窗口"
 
 #. type: menuentry
 #: /source/emacs.texi:176
@@ -450,7 +465,7 @@ msgstr ""
 #: /source/emacs.texi:176 /source/frames.texi:5
 #, no-wrap
 msgid "Frames"
-msgstr ""
+msgstr "框架"
 
 #. type: menuentry
 #: /source/emacs.texi:176
@@ -461,7 +476,7 @@ msgstr ""
 #: /source/emacs.texi:176 /source/mule.texi:5
 #, no-wrap
 msgid "International"
-msgstr ""
+msgstr "国际化"
 
 #. type: menuentry
 #: /source/emacs.texi:176
@@ -477,7 +492,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/modes.texi:6
 #, no-wrap
 msgid "Modes"
-msgstr ""
+msgstr "模式"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -511,7 +526,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/programs.texi:6
 #, no-wrap
 msgid "Programs"
-msgstr ""
+msgstr "程序"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -522,7 +537,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/building.texi:5
 #, no-wrap
 msgid "Building"
-msgstr ""
+msgstr "构建"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -533,7 +548,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/maintaining.texi:5
 #, no-wrap
 msgid "Maintaining"
-msgstr ""
+msgstr "维护"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -568,7 +583,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/calendar.texi:5
 #, no-wrap
 msgid "Calendar/Diary"
-msgstr ""
+msgstr "日历/日记"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -636,7 +651,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/misc.texi:449
 #, no-wrap
 msgid "Document View"
-msgstr ""
+msgstr "文档视图"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -647,7 +662,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/misc.texi:665
 #, no-wrap
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -658,7 +673,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/misc.texi:1689
 #, no-wrap
 msgid "Emacs Server"
-msgstr ""
+msgstr "Emacs 服务器"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -669,7 +684,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/misc.texi:2196
 #, no-wrap
 msgid "Printing"
-msgstr ""
+msgstr "打印"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -680,7 +695,7 @@ msgstr ""
 #: /source/emacs.texi:197 /source/misc.texi:2462
 #, no-wrap
 msgid "Sorting"
-msgstr ""
+msgstr "排序"
 
 #. type: menuentry
 #: /source/emacs.texi:197
@@ -718,7 +733,7 @@ msgstr ""
 #: /source/emacs.texi:207 /source/misc.texi:2804
 #, no-wrap
 msgid "Recursive Edit"
-msgstr ""
+msgstr "递归编辑"
 
 #. type: menuentry
 #: /source/emacs.texi:207
@@ -729,7 +744,7 @@ msgstr ""
 #: /source/emacs.texi:207 /source/misc.texi:2873
 #, no-wrap
 msgid "Hyperlinking"
-msgstr ""
+msgstr "超链接"
 
 #. type: menuentry
 #: /source/emacs.texi:207
@@ -740,7 +755,7 @@ msgstr ""
 #: /source/emacs.texi:207 /source/misc.texi:3119
 #, no-wrap
 msgid "Amusements"
-msgstr ""
+msgstr "娱乐"
 
 #. type: menuentry
 #: /source/emacs.texi:207
@@ -751,7 +766,7 @@ msgstr ""
 #: /source/emacs.texi:207 /source/package.texi:5
 #, no-wrap
 msgid "Packages"
-msgstr ""
+msgstr "包"
 
 #. type: menuentry
 #: /source/emacs.texi:207
@@ -790,7 +805,7 @@ msgstr ""
 #: /source/emacs.texi:214 /source/trouble.texi:142
 #, no-wrap
 msgid "Lossage"
-msgstr ""
+msgstr "损失"
 
 #. type: menuentry
 #: /source/emacs.texi:214
@@ -801,7 +816,7 @@ msgstr ""
 #: /source/emacs.texi:214 /source/trouble.texi:492
 #, no-wrap
 msgid "Bugs"
-msgstr ""
+msgstr "Bugs"
 
 #. type: menuentry
 #: /source/emacs.texi:214
@@ -812,7 +827,7 @@ msgstr ""
 #: /source/emacs.texi:214 /source/trouble.texi:1251
 #, no-wrap
 msgid "Contributing"
-msgstr ""
+msgstr "贡献"
 
 #. type: menuentry
 #: /source/emacs.texi:214
@@ -823,7 +838,7 @@ msgstr ""
 #: /source/emacs.texi:214 /source/trouble.texi:1478
 #, no-wrap
 msgid "Service"
-msgstr ""
+msgstr "服务"
 
 #. type: menuentry
 #: /source/emacs.texi:214
@@ -839,7 +854,7 @@ msgstr ""
 #: /source/emacs.texi:227 /source/emacs.texi:1613
 #, no-wrap
 msgid "Copying"
-msgstr ""
+msgstr "复制"
 
 #. type: menuentry
 #: /source/emacs.texi:227
@@ -865,7 +880,7 @@ msgstr ""
 #: /source/emacs.texi:227 /source/cmdargs.texi:5
 #, no-wrap
 msgid "Emacs Invocation"
-msgstr ""
+msgstr "Emacs 调用"
 
 #. type: menuentry
 #: /source/emacs.texi:227
@@ -887,7 +902,7 @@ msgstr ""
 #: /source/emacs.texi:227 /source/anti.texi:6
 #, no-wrap
 msgid "Antinews"
-msgstr ""
+msgstr "反新闻"
 
 #. type: menuentry
 #: /source/emacs.texi:227
@@ -898,7 +913,7 @@ msgstr ""
 #: /source/emacs.texi:227 /source/macos.texi:4
 #, no-wrap
 msgid "Mac OS / GNUstep"
-msgstr ""
+msgstr "Mac OS / GNUstep"
 
 #. type: menuentry
 #: /source/emacs.texi:227
@@ -929,7 +944,7 @@ msgstr ""
 #: /source/emacs.texi:227 /source/gnu.texi:13
 #, no-wrap
 msgid "Manifesto"
-msgstr ""
+msgstr "宣言"
 
 #. type: menuentry
 #: /source/emacs.texi:227
@@ -961,7 +976,7 @@ msgstr ""
 #: /source/emacs.texi:239 /source/emacs.texi:1639
 #, no-wrap
 msgid "Key Index"
-msgstr ""
+msgstr "键索引"
 
 #. type: menuentry
 #: /source/emacs.texi:239
@@ -972,7 +987,7 @@ msgstr ""
 #: /source/emacs.texi:239 /source/emacs.texi:1644
 #, no-wrap
 msgid "Option Index"
-msgstr ""
+msgstr "选项索引"
 
 #. type: menuentry
 #: /source/emacs.texi:239
@@ -983,7 +998,7 @@ msgstr ""
 #: /source/emacs.texi:239 /source/emacs.texi:1649
 #, no-wrap
 msgid "Command Index"
-msgstr ""
+msgstr "命令索引"
 
 #. type: menuentry
 #: /source/emacs.texi:239
@@ -1100,7 +1115,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:161
 #, no-wrap
 msgid "Moving Point"
-msgstr ""
+msgstr "移动游标"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1111,7 +1126,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:396
 #, no-wrap
 msgid "Erasing"
-msgstr ""
+msgstr "擦除"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1122,7 +1137,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:462
 #, no-wrap
 msgid "Basic Undo"
-msgstr ""
+msgstr "撤销基础"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1133,7 +1148,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:501
 #, no-wrap
 msgid "Basic Files"
-msgstr ""
+msgstr "文件基础"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1144,7 +1159,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:537
 #, no-wrap
 msgid "Basic Help"
-msgstr ""
+msgstr "帮助基础"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1179,7 +1194,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:640
 #, no-wrap
 msgid "Position Info"
-msgstr ""
+msgstr "位置信息"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1190,7 +1205,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:751
 #, no-wrap
 msgid "Arguments"
-msgstr ""
+msgstr "参数"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1201,7 +1216,7 @@ msgstr ""
 #: /source/emacs.texi:273 /source/basic.texi:30 /source/basic.texi:861
 #, no-wrap
 msgid "Repeating"
-msgstr ""
+msgstr "重复"
 
 #. type: menuentry
 #: /source/emacs.texi:273 /source/basic.texi:30
@@ -1218,7 +1233,7 @@ msgstr ""
 #: /source/emacs.texi:284 /source/mini.texi:26 /source/mini.texi:28
 #, no-wrap
 msgid "Basic Minibuffer"
-msgstr ""
+msgstr "迷你缓冲区基础"
 
 #. type: menuentry
 #: /source/emacs.texi:284 /source/mini.texi:26
@@ -1229,7 +1244,7 @@ msgstr ""
 #: /source/emacs.texi:284 /source/mini.texi:26 /source/mini.texi:88
 #, no-wrap
 msgid "Minibuffer File"
-msgstr ""
+msgstr "迷你缓冲区文件"
 
 #. type: menuentry
 #: /source/emacs.texi:284 /source/mini.texi:26
@@ -1240,7 +1255,7 @@ msgstr ""
 #: /source/emacs.texi:284 /source/mini.texi:26 /source/mini.texi:177
 #, no-wrap
 msgid "Minibuffer Edit"
-msgstr ""
+msgstr "迷你缓冲区编辑"
 
 #. type: menuentry
 #: /source/emacs.texi:284 /source/mini.texi:26
@@ -1275,7 +1290,7 @@ msgstr ""
 #: /source/emacs.texi:284 /source/mini.texi:26 /source/mini.texi:849
 #, no-wrap
 msgid "Repetition"
-msgstr ""
+msgstr "重复"
 
 #. type: menuentry
 #: /source/emacs.texi:284 /source/mini.texi:26
@@ -1286,7 +1301,7 @@ msgstr ""
 #: /source/emacs.texi:284 /source/mini.texi:26 /source/mini.texi:907
 #, no-wrap
 msgid "Passwords"
-msgstr ""
+msgstr "密码"
 
 #. type: menuentry
 #: /source/emacs.texi:284 /source/mini.texi:26
@@ -1345,7 +1360,7 @@ msgstr ""
 #: /source/emacs.texi:292 /source/mini.texi:294 /source/mini.texi:499
 #, no-wrap
 msgid "Completion Styles"
-msgstr ""
+msgstr "补全风格"
 
 #. type: menuentry
 #: /source/emacs.texi:292 /source/mini.texi:294
@@ -1380,7 +1395,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:209
 #, no-wrap
 msgid "Key Help"
-msgstr ""
+msgstr "键帮助"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1391,7 +1406,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:257
 #, no-wrap
 msgid "Name Help"
-msgstr ""
+msgstr "名称帮助"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1414,7 +1429,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:471
 #, no-wrap
 msgid "Help Mode"
-msgstr ""
+msgstr "帮助模式"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1425,7 +1440,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:577
 #, no-wrap
 msgid "Package Keywords"
-msgstr ""
+msgstr "包关键字"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1436,7 +1451,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:604
 #, no-wrap
 msgid "Language Help"
-msgstr ""
+msgstr "语言帮助"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1447,7 +1462,7 @@ msgstr ""
 #: /source/emacs.texi:305 /source/help.texi:93 /source/help.texi:626
 #, no-wrap
 msgid "Misc Help"
-msgstr ""
+msgstr "其它帮助"
 
 #. type: menuentry
 #: /source/emacs.texi:305 /source/help.texi:93
@@ -1488,7 +1503,7 @@ msgstr ""
 #: /source/emacs.texi:315 /source/mark.texi:64 /source/mark.texi:66
 #, no-wrap
 msgid "Setting Mark"
-msgstr ""
+msgstr "设置标记"
 
 #. type: menuentry
 #: /source/emacs.texi:315 /source/mark.texi:64
@@ -1499,7 +1514,7 @@ msgstr ""
 #: /source/emacs.texi:315 /source/mark.texi:64 /source/mark.texi:163
 #, no-wrap
 msgid "Marking Objects"
-msgstr ""
+msgstr "标记对象"
 
 #. type: menuentry
 #: /source/emacs.texi:315 /source/mark.texi:64
@@ -1510,7 +1525,7 @@ msgstr ""
 #: /source/emacs.texi:315 /source/mark.texi:64 /source/mark.texi:227
 #, no-wrap
 msgid "Using Region"
-msgstr ""
+msgstr "使用选区"
 
 #. type: menuentry
 #: /source/emacs.texi:315 /source/mark.texi:64
@@ -1557,7 +1572,7 @@ msgstr ""
 #: /source/emacs.texi:315 /source/mark.texi:64 /source/mark.texi:432
 #, no-wrap
 msgid "Disabled Transient Mark"
-msgstr ""
+msgstr "禁用瞬态标记"
 
 #. type: menuentry
 #: /source/emacs.texi:315 /source/mark.texi:64
@@ -1684,7 +1699,7 @@ msgstr ""
 #: /source/emacs.texi:333 /source/killing.texi:68 /source/killing.texi:261
 #, no-wrap
 msgid "Kill Options"
-msgstr ""
+msgstr "剪切选项"
 
 #. type: menuentry
 #: /source/emacs.texi:333 /source/killing.texi:68
@@ -1707,7 +1722,7 @@ msgstr ""
 #: /source/emacs.texi:339 /source/killing.texi:344 /source/killing.texi:368
 #, no-wrap
 msgid "Earlier Kills"
-msgstr ""
+msgstr "较早的剪切"
 
 #. type: menuentry
 #: /source/emacs.texi:339 /source/killing.texi:344
@@ -1771,7 +1786,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:60
 #, no-wrap
 msgid "Position Registers"
-msgstr ""
+msgstr "位置寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -1782,7 +1797,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:94
 #, no-wrap
 msgid "Text Registers"
-msgstr ""
+msgstr "文本寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -1793,7 +1808,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:160
 #, no-wrap
 msgid "Rectangle Registers"
-msgstr ""
+msgstr "矩形寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -1804,7 +1819,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:184
 #, no-wrap
 msgid "Configuration Registers"
-msgstr ""
+msgstr "配置寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -1815,7 +1830,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:212
 #, no-wrap
 msgid "Number Registers"
-msgstr ""
+msgstr "数字寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -1826,7 +1841,7 @@ msgstr ""
 #: /source/emacs.texi:356 /source/regs.texi:58 /source/regs.texi:241
 #, no-wrap
 msgid "File and Buffer Registers"
-msgstr ""
+msgstr "文件和缓冲区寄存器"
 
 #. type: menuentry
 #: /source/emacs.texi:356 /source/regs.texi:58
@@ -11021,7 +11036,7 @@ msgstr ""
 #: /source/screen.texi:66
 #, no-wrap
 msgid "point"
-msgstr ""
+msgstr "游标"
 
 #. type: item
 #: /source/screen.texi:67 /source/display.texi:810 /source/xresources.texi:474
@@ -11721,7 +11736,7 @@ msgstr ""
 #: /source/commands.texi:93
 #, no-wrap
 msgid "key"
-msgstr ""
+msgstr "键"
 
 #. type: cindex
 #: /source/commands.texi:94
